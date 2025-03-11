@@ -18,7 +18,7 @@ def vehicle_list_create(request):
     elif request.method == 'POST':
 
         if request.data["plate_number"]:
-            request.data["plate_number"] = request.data["plate_number"].upper()
+            request.data["plate_number"] = request.data["plate_number"].lower()
 
         if request.data["v_type"]:
             request.data["v_type"].lower()
