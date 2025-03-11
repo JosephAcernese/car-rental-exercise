@@ -54,7 +54,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "car_rental_website.urls"
+ROOT_URLCONF = "car_rental_exercise.urls"
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "car_rental_website.wsgi.application"
+WSGI_APPLICATION = "car_rental_exercise.wsgi.application"
 
 
 # Database
